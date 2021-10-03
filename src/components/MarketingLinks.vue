@@ -4,7 +4,7 @@
         <ul>
           <li v-for="(link, index) in icone" :key="index">
             <a :href="link.url">
-                {{link.img}} <span>{{link.text}}</span>
+                <img :src="link.img" alt=""> <span>{{link.text}}</span>
             </a>
           </li>
         </ul>
@@ -19,27 +19,27 @@ export default {
 		return {
 			icone: [
                 {
-                    img: "<img src='@/assets/img/buy-comics-digital-comics.png' alt='icona-market'>",
-                    url: "#",
-                    text: "DIGITAL COMICS",
+                    "img": "../assets/img/buy-comics-digital-comics.png",
+                    "url": "#",
+                    "text": "DIGITAL COMICS",
                 },
                 {
-                    img: '<img src="@/assets/img/buy-comics-digital-comics.png" alt="icona-market">',
+                    img: "../assets/img/buy-comics-digital-comics.png",
                     url: "#",
                     text: "DC MERCHANDISE",
                 },
                 {
-                    img: '<img src="@/assets/img/buy-comics-digital-comics.png" alt="icona-market">',
+                    img: "../assets/img/buy-comics-digital-comics.png",
                     url: "#",
                     text: "SUBSCRIPTION",
                 },
                 {
-                    img: '<img src="@/assets/img/buy-comics-digital-comics.png" alt="icona-market">',
+                    img: "../assets/img/buy-comics-digital-comics.png",
                     url: "#",
                     text: "COMIC SHOP LOCATOR",
                 },
                 {
-                    img: '<img src="@/assets/img/buy-comics-digital-comics.png" alt="icona-market">',
+                    img: "./assets/img/buy-comics-digital-comics.png",
                     url: "#",
                     text: "DC POWER VISA",
                 }
@@ -76,6 +76,10 @@ export default {
             color: #fff;
             font-size: 1.125rem;
             font-weight: 500;
+        }
+        img{
+            width: 100%;
+            height: 50px;
         }
     }
 }
