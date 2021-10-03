@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Content from '@/components/Content.vue';
-import MarketingLinks from '@/components/MarketingLinks.vue';
-import Footer from '@/components/Footer.vue';
+import Header from './components/Header.vue';
+import Content from './components/Content.vue';
+import MarketingLinks from './components/MarketingLinks.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
