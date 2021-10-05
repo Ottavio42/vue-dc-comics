@@ -20,8 +20,7 @@ export default {
 	.serie{
 		width: calc(100% / 6);
 		height: 15rem;
-		border: 2px;
-		padding: 2.1875rem 0;
+		padding: 2.1875rem 10px;
 		color: #fff;
 		.serie__name{
 			text-align: center;
