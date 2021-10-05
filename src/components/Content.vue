@@ -110,10 +110,11 @@ export default {
     }
  
     .series{
-        width: $sizeContainer;
-        margin: auto;
+        background-color: #1c1c1c;
         .series-container{
-            display: flex;
+           width: $sizeContainer;
+           margin: auto;
+           display: flex;
             flex-wrap: wrap;
         }
     }

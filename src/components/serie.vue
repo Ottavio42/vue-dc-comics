@@ -14,12 +14,15 @@ export default {
 }
 </script>
 
+
+
 <style lang="scss" scoped>
 	.serie{
 		width: calc(100% / 6);
-		border: 2px solid #dbe9ff;
-		background-color: #fff;
-		padding: 25px 0;
+		height: 15rem;
+		border: 2px;
+		padding: 2.1875rem 0;
+		color: #fff;
 		.serie__name{
 			text-align: center;
 			font-weight: 500;
@@ -27,6 +30,10 @@ export default {
 			margin: 0 auto;
 		}
 		.serie__image{
-			width: 50px;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: top;
 		}
 	}
+</style>
